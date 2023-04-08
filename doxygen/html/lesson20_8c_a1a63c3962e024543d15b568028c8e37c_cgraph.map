@@ -1,0 +1,9 @@
+<map id="xMainLoop" name="xMainLoop">
+<area shape="rect" id="node1" title="Fonction xMainLoop : orrespondant à la boucle d&#39;attente d&#39;événements de X11." alt="" coords="5,81,91,108"/>
+<area shape="rect" id="node2" href="$lesson20_8c.html#a3f50a3778a5799e1dd9cf4547cf73ad3" title="Fonction DrawGLScene : fonction generant l&#39;affichage attendu avec des instructions OpenGL." alt="" coords="139,5,245,32"/>
+<area shape="rect" id="node4" href="$lesson20_8c.html#a993f3ba8159c7de18fef15d66e5b74ca" title="Fonction keyPressed : fonction permettant de connaître quelle touche a été tapée au clavier." alt="" coords="147,81,237,108"/>
+<area shape="rect" id="node6" href="$lesson20_8c.html#aaeedc5c1c90eff3a2950f1a2dbbdac6c" title="Fonction ReSizeGLScene : fonction gerant les nouvelles dimensions de la scéne lorsque l&#39;utilisateur a..." alt="" coords="293,132,412,159"/>
+<area shape="rect" id="node3" href="$logger_8c.html#abd2d19eeef46a8184a2302d33c6c7397" title=" " alt="" coords="460,56,531,83"/>
+<area shape="rect" id="node5" href="$lesson20_8c.html#a7b663452b29fa6d5c1004c71f0bef449" title=" " alt="" coords="303,31,402,57"/>
+<area shape="rect" id="node7" href="$lesson20_8c.html#a890ee4e485ae9ab6768f6bac7b9f679e" title=" " alt="" coords="293,81,412,108"/>
+</map>

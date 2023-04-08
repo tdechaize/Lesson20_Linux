@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_texture" xml:lang="en-US">
+<title>Texture Struct Reference</title>
+<indexterm><primary>Texture</primary></indexterm>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>unsigned long <link linkend="_struct_texture_1a1455725016467f4ede2da831a5fc8039">ulDimensionX</link></para>
+</listitem>
+            <listitem><para>unsigned long <link linkend="_struct_texture_1ab3b43236e7fbb2d4f4d493aadce5f5c8">ulDimensionY</link></para>
+</listitem>
+            <listitem><para>char * <link linkend="_struct_texture_1a10b469027c26a4332da20279e7bc76f5">pcData</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_struct_texture_1a10b469027c26a4332da20279e7bc76f5"/>    <section>
+    <title>pcData</title>
+<indexterm><primary>pcData</primary><secondary>Texture</secondary></indexterm>
+<indexterm><primary>Texture</primary><secondary>pcData</secondary></indexterm>
+<para><computeroutput>char* Texture::pcData</computeroutput></para>    </section><anchor xml:id="_struct_texture_1a1455725016467f4ede2da831a5fc8039"/>    <section>
+    <title>ulDimensionX</title>
+<indexterm><primary>ulDimensionX</primary><secondary>Texture</secondary></indexterm>
+<indexterm><primary>Texture</primary><secondary>ulDimensionX</secondary></indexterm>
+<para><computeroutput>unsigned long Texture::ulDimensionX</computeroutput></para>    </section><anchor xml:id="_struct_texture_1ab3b43236e7fbb2d4f4d493aadce5f5c8"/>    <section>
+    <title>ulDimensionY</title>
+<indexterm><primary>ulDimensionY</primary><secondary>Texture</secondary></indexterm>
+<indexterm><primary>Texture</primary><secondary>ulDimensionY</secondary></indexterm>
+<para><computeroutput>unsigned long Texture::ulDimensionY</computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+/home/thierry/Sources/Opengl/Lesson20/src/<link linkend="_lesson20_8c">lesson20.c</link></section>
+</section>

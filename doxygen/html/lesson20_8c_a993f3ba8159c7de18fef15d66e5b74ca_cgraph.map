@@ -1,0 +1,7 @@
+<map id="keyPressed" name="keyPressed">
+<area shape="rect" id="node1" title="Fonction keyPressed : fonction permettant de connaître quelle touche a été tapée au clavier." alt="" coords="5,56,96,83"/>
+<area shape="rect" id="node2" href="$lesson20_8c.html#a7b663452b29fa6d5c1004c71f0bef449" title=" " alt="" coords="154,5,253,32"/>
+<area shape="rect" id="node3" href="$lesson20_8c.html#aaeedc5c1c90eff3a2950f1a2dbbdac6c" title="Fonction ReSizeGLScene : fonction gerant les nouvelles dimensions de la scéne lorsque l&#39;utilisateur a..." alt="" coords="144,56,263,83"/>
+<area shape="rect" id="node5" href="$lesson20_8c.html#a890ee4e485ae9ab6768f6bac7b9f679e" title=" " alt="" coords="144,107,263,133"/>
+<area shape="rect" id="node4" href="$logger_8c.html#abd2d19eeef46a8184a2302d33c6c7397" title=" " alt="" coords="311,56,381,83"/>
+</map>

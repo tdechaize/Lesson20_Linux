@@ -1,0 +1,12 @@
+<map id="log_print" name="log_print">
+<area shape="rect" id="node1" title=" " alt="" coords="579,103,649,130"/>
+<area shape="rect" id="node2" href="$lesson20_8c.html#a3f50a3778a5799e1dd9cf4547cf73ad3" title="Fonction DrawGLScene : fonction generant l&#39;affichage attendu avec des instructions OpenGL." alt="" coords="252,255,359,282"/>
+<area shape="rect" id="node4" href="$lesson20_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,154,56,181"/>
+<area shape="rect" id="node5" href="$lesson20_8c.html#aa850e410b2b24fa5c538303ae4fa6217" title="Fonction InitGL : fonction gerant les caractéristiques de base de la scéne lorsque avec des instructi..." alt="" coords="123,103,180,130"/>
+<area shape="rect" id="node6" href="$lesson20_8c.html#a700749807dd9f039159ac1e040864276" title="Fonction LoadBMP: fonction chargeant une image stockée dans un fichier BMP." alt="" coords="432,53,511,79"/>
+<area shape="rect" id="node7" href="$lesson20_8c.html#a8dd15539ba90ae3670aa0a9f889d2236" title="Fonction LoadGLTextures : fonction chargeant la texture à appliquer à un objet avec des instructions ..." alt="" coords="247,53,364,79"/>
+<area shape="rect" id="node8" href="$lesson20_8c.html#aaeedc5c1c90eff3a2950f1a2dbbdac6c" title="Fonction ReSizeGLScene : fonction gerant les nouvelles dimensions de la scéne lorsque l&#39;utilisateur a..." alt="" coords="412,154,531,181"/>
+<area shape="rect" id="node10" href="$lesson20_8c.html#a63a1604ec2f287b9d5322652a51a649d" title="Fonction xInitWindow : fonction gerant les caractéristiques de base de la scéne lorsque avec des inst..." alt="" coords="104,281,199,307"/>
+<area shape="rect" id="node3" href="$lesson20_8c.html#a1a63c3962e024543d15b568028c8e37c" title="Fonction xMainLoop : orrespondant à la boucle d&#39;attente d&#39;événements de X11." alt="" coords="109,179,194,206"/>
+<area shape="rect" id="node9" href="$lesson20_8c.html#a993f3ba8159c7de18fef15d66e5b74ca" title="Fonction keyPressed : fonction permettant de connaître quelle touche a été tapée au clavier." alt="" coords="260,154,351,181"/>
+</map>

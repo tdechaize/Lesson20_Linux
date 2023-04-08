@@ -1,0 +1,5 @@
+<map id="keyPressed" name="keyPressed">
+<area shape="rect" id="node1" title="Fonction keyPressed : fonction permettant de connaître quelle touche a été tapée au clavier." alt="" coords="237,5,328,32"/>
+<area shape="rect" id="node2" href="$lesson20_8c.html#a1a63c3962e024543d15b568028c8e37c" title="Fonction xMainLoop : orrespondant à la boucle d&#39;attente d&#39;événements de X11." alt="" coords="104,5,189,32"/>
+<area shape="rect" id="node3" href="$lesson20_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,56,32"/>
+</map>

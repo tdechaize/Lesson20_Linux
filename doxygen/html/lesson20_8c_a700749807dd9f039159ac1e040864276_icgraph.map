@@ -1,0 +1,6 @@
+<map id="LoadBMP" name="LoadBMP">
+<area shape="rect" id="node1" title="Fonction LoadBMP: fonction chargeant une image stockée dans un fichier BMP." alt="" coords="375,5,453,32"/>
+<area shape="rect" id="node2" href="$lesson20_8c.html#a8dd15539ba90ae3670aa0a9f889d2236" title="Fonction LoadGLTextures : fonction chargeant la texture à appliquer à un objet avec des instructions ..." alt="" coords="209,5,327,32"/>
+<area shape="rect" id="node3" href="$lesson20_8c.html#aa850e410b2b24fa5c538303ae4fa6217" title="Fonction InitGL : fonction gerant les caractéristiques de base de la scéne lorsque avec des instructi..." alt="" coords="104,5,161,32"/>
+<area shape="rect" id="node4" href="$lesson20_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,56,32"/>
+</map>
