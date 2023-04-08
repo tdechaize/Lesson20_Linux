@@ -1,0 +1,290 @@
+<html>
+<head>
+<title>lesson20 build log</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+<tt>
+Build started on: <u>08-04-2023 at 18:26.44</u><br />
+Build ended on: <u>08-04-2023 at 18:26.46</u><p />
+<b>-------------- Build: GNUC 32b Debug in lesson20 (compiler: GNU GCC Compiler 32b)---------------</b><br />
+gcc -Wall -g -D_DEBUG -DDEBUG -m32 -I/usr/include -c /home/thierry/Sources/Opengl/Lesson20/src/lesson20.c -o objgcc32/Debug/src/lesson20.o<br />
+/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c: In function ‘LoadBMP’:<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:251:27: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 3 has type ‘long unsigned int’ [-Wformat=]</font><br />
+  251 |     printf("Width of %s: %ul\n", filename, texture-&gt;ulDimensionX);<br />
+      |                          ~^                ~~~~~~~~~~~~~~~~~~~~~<br />
+      |                           |                       |<br />
+      |                           unsigned int            long unsigned int<br />
+      |                          %lu<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:255:28: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 3 has type ‘long unsigned int’ [-Wformat=]</font><br />
+  255 |     printf("Height of %s: %ul\n", filename, texture-&gt;ulDimensionY);<br />
+      |                           ~^                ~~~~~~~~~~~~~~~~~~~~~<br />
+      |                            |                       |<br />
+      |                            unsigned int            long unsigned int<br />
+      |                           %lu<br />
+/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c: In function ‘xMainLoop’:<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:739:8: warning: variable ‘needRedraw’ set but not used [-Wunused-but-set-variable]</font><br />
+  739 |   Bool needRedraw = False;<br />
+      |        ^~~~~~~~~~<br />
+gcc -L/usr/lib/i386-linux-gnu -o bingcc32/Debug/lesson20.exe objgcc32/Debug/src/lesson20.o objgcc32/Debug/src/logger.o  -m32  -lGL -lglut -lGLU -lm -lXxf86vm -lXext -lX11<br />
+Output file is bingcc32/Debug/lesson20.exe with size 46,84 KB<br />
+<b>-------------- Build: GNUC 32b Release in lesson20 (compiler: GNU GCC Compiler 32b)---------------</b><br />
+gcc -Wall -m32 -DNDEBUG -m32 -I/usr/include -c /home/thierry/Sources/Opengl/Lesson20/src/lesson20.c -o objgcc32/Release/src/lesson20.o<br />
+/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c: In function ‘LoadBMP’:<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:251:27: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 3 has type ‘long unsigned int’ [-Wformat=]</font><br />
+  251 |     printf("Width of %s: %ul\n", filename, texture-&gt;ulDimensionX);<br />
+      |                          ~^                ~~~~~~~~~~~~~~~~~~~~~<br />
+      |                           |                       |<br />
+      |                           unsigned int            long unsigned int<br />
+      |                          %lu<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:255:28: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 3 has type ‘long unsigned int’ [-Wformat=]</font><br />
+  255 |     printf("Height of %s: %ul\n", filename, texture-&gt;ulDimensionY);<br />
+      |                           ~^                ~~~~~~~~~~~~~~~~~~~~~<br />
+      |                            |                       |<br />
+      |                            unsigned int            long unsigned int<br />
+      |                           %lu<br />
+/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c: In function ‘xMainLoop’:<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:739:8: warning: variable ‘needRedraw’ set but not used [-Wunused-but-set-variable]</font><br />
+  739 |   Bool needRedraw = False;<br />
+      |        ^~~~~~~~~~<br />
+gcc -L/usr/lib/i386-linux-gnu -o bingcc32/Release/lesson20.exe objgcc32/Release/src/lesson20.o objgcc32/Release/src/logger.o  -m32 -m32  -lGL -lglut -lGLU -lm -lXxf86vm -lXext -lX11<br />
+Output file is bingcc32/Release/lesson20.exe with size 21,43 KB<br />
+<b>-------------- Build: GNUC 64b Debug in lesson20 (compiler: GNU GCC Compiler)---------------</b><br />
+gcc -Wall -g -D_DEBUG -DDEBUG -m64 -I/usr/include -c /home/thierry/Sources/Opengl/Lesson20/src/lesson20.c -o objgcc64/Debug/src/lesson20.o<br />
+/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c: In function ‘LoadBMP’:<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:251:27: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 3 has type ‘long unsigned int’ [-Wformat=]</font><br />
+  251 |     printf("Width of %s: %ul\n", filename, texture-&gt;ulDimensionX);<br />
+      |                          ~^                ~~~~~~~~~~~~~~~~~~~~~<br />
+      |                           |                       |<br />
+      |                           unsigned int            long unsigned int<br />
+      |                          %lu<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:255:28: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 3 has type ‘long unsigned int’ [-Wformat=]</font><br />
+  255 |     printf("Height of %s: %ul\n", filename, texture-&gt;ulDimensionY);<br />
+      |                           ~^                ~~~~~~~~~~~~~~~~~~~~~<br />
+      |                            |                       |<br />
+      |                            unsigned int            long unsigned int<br />
+      |                           %lu<br />
+/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c: In function ‘xInitWindow’:<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:460:26: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]</font><br />
+  460 |                          (int) argc,<br />
+      |                          ^<br />
+/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c: In function ‘xMainLoop’:<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:739:8: warning: variable ‘needRedraw’ set but not used [-Wunused-but-set-variable]</font><br />
+  739 |   Bool needRedraw = False;<br />
+      |        ^~~~~~~~~~<br />
+gcc -L/usr/lib/x86_64-linux-gnu -o bingcc64/Debug/lesson20.exe objgcc64/Debug/src/lesson20.o objgcc64/Debug/src/logger.o  -m64  -lGL -lglut -lGLU -lm -lXxf86vm -lXext -lX11<br />
+Output file is bingcc64/Debug/lesson20.exe with size 52,80 KB<br />
+<b>-------------- Build: GNUC 64b Release in lesson20 (compiler: GNU GCC Compiler)---------------</b><br />
+gcc -Wall -O2 -DNDEBUG -m64 -I/usr/include -c /home/thierry/Sources/Opengl/Lesson20/src/lesson20.c -o objgcc64/Release/src/lesson20.o<br />
+/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c: In function ‘LoadBMP’:<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:251:27: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 3 has type ‘long unsigned int’ [-Wformat=]</font><br />
+  251 |     printf("Width of %s: %ul\n", filename, texture-&gt;ulDimensionX);<br />
+      |                          ~^                ~~~~~~~~~~~~~~~~~~~~~<br />
+      |                           |                       |<br />
+      |                           unsigned int            long unsigned int<br />
+      |                          %lu<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:255:28: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 3 has type ‘long unsigned int’ [-Wformat=]</font><br />
+  255 |     printf("Height of %s: %ul\n", filename, texture-&gt;ulDimensionY);<br />
+      |                           ~^                ~~~~~~~~~~~~~~~~~~~~~<br />
+      |                            |                       |<br />
+      |                            unsigned int            long unsigned int<br />
+      |                           %lu<br />
+/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c: In function ‘xInitWindow’:<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:460:26: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]</font><br />
+  460 |                          (int) argc,<br />
+      |                          ^<br />
+/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c: In function ‘xMainLoop’:<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:739:8: warning: variable ‘needRedraw’ set but not used [-Wunused-but-set-variable]</font><br />
+  739 |   Bool needRedraw = False;<br />
+      |        ^~~~~~~~~~<br />
+gcc -L/usr/lib/x86_64-linux-gnu -o bingcc64/Release/lesson20.exe objgcc64/Release/src/lesson20.o objgcc64/Release/src/logger.o  -s -m64  -lGL -lglut -lGLU -lm -lXxf86vm -lXext -lX11<br />
+Output file is bingcc64/Release/lesson20.exe with size 22,20 KB<br />
+<b>-------------- Build: CLANG 32b Debug in lesson20 (compiler: LLVM Clang Compiler 32b)---------------</b><br />
+clang -Wall -O0 -D_DEBUG -DDEBUG --target=i686-pc-linux-gnu -I/usr/lib/clang/14.0.6/include -c /home/thierry/Sources/Opengl/Lesson20/src/lesson20.c -o objclang32/Debug/src/lesson20.o<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:251:44: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]</font><br />
+    printf("Width of %s: %ul\n", filename, texture-&gt;ulDimensionX);<br />
+                         ~~                ^~~~~~~~~~~~~~~~~~~~~<br />
+                         %lu<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:255:45: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]</font><br />
+    printf("Height of %s: %ul\n", filename, texture-&gt;ulDimensionY);<br />
+                          ~~                ^~~~~~~~~~~~~~~~~~~~~<br />
+                          %lu<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:739:8: warning: variable 'needRedraw' set but not used [-Wunused-but-set-variable]</font><br />
+  Bool needRedraw = False;<br />
+       ^<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:801:22: warning: expression which evaluates to zero treated as a null pointer constant of type 'char *' [-Wnon-literal-null-conversion]</font><br />
+       level_debug = '\0';<br />
+                     ^~~~<br />
+4 warnings generated.<br />
+clang -L/usr/lib/clang/14.0.6/lib/linux -o binclang32/Debug/lesson20.exe objclang32/Debug/src/lesson20.o objclang32/Debug/src/logger.o  --target=i686-pc-linux-gnu  -lGL -lglut -lGLU -lm -lXxf86vm -lXext -lX11<br />
+Output file is binclang32/Debug/lesson20.exe with size 25,39 KB<br />
+<b>-------------- Build: CLANG 32b Release in lesson20 (compiler: LLVM Clang Compiler 32b)---------------</b><br />
+clang -Wall -O2 -DNDEBUG --target=i686-pc-linux-gnu -I/usr/lib/clang/14.0.6/include -c /home/thierry/Sources/Opengl/Lesson20/src/lesson20.c -o objclang32/Release/src/lesson20.o<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:251:44: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]</font><br />
+    printf("Width of %s: %ul\n", filename, texture-&gt;ulDimensionX);<br />
+                         ~~                ^~~~~~~~~~~~~~~~~~~~~<br />
+                         %lu<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:255:45: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]</font><br />
+    printf("Height of %s: %ul\n", filename, texture-&gt;ulDimensionY);<br />
+                          ~~                ^~~~~~~~~~~~~~~~~~~~~<br />
+                          %lu<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:739:8: warning: variable 'needRedraw' set but not used [-Wunused-but-set-variable]</font><br />
+  Bool needRedraw = False;<br />
+       ^<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:801:22: warning: expression which evaluates to zero treated as a null pointer constant of type 'char *' [-Wnon-literal-null-conversion]</font><br />
+       level_debug = '\0';<br />
+                     ^~~~<br />
+4 warnings generated.<br />
+clang -L/usr/lib/clang/14.0.6/lib/linux -o binclang32/Release/lesson20.exe objclang32/Release/src/lesson20.o objclang32/Release/src/logger.o  -s --target=i686-pc-linux-gnu  -lGL -lglut -lGLU -lm -lXxf86vm -lXext -lX11<br />
+Output file is binclang32/Release/lesson20.exe with size 17,80 KB<br />
+<b>-------------- Build: CLANG 64b Debug in lesson20 (compiler: LLVM Clang Compiler)---------------</b><br />
+clang -Wall -O0 -D_DEBUG -DDEBUG --target=x86_64-pc-linux-gnu -I/usr/lib/clang/14.0.6/include -c /home/thierry/Sources/Opengl/Lesson20/src/lesson20.c -o objclang64/Debug/src/lesson20.o<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:251:44: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]</font><br />
+    printf("Width of %s: %ul\n", filename, texture-&gt;ulDimensionX);<br />
+                         ~~                ^~~~~~~~~~~~~~~~~~~~~<br />
+                         %lu<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:255:45: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]</font><br />
+    printf("Height of %s: %ul\n", filename, texture-&gt;ulDimensionY);<br />
+                          ~~                ^~~~~~~~~~~~~~~~~~~~~<br />
+                          %lu<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:460:26: warning: cast to smaller integer type 'int' from 'char **' [-Wpointer-to-int-cast]</font><br />
+                         (int) argc,<br />
+                         ^~~~~~~~~~<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:739:8: warning: variable 'needRedraw' set but not used [-Wunused-but-set-variable]</font><br />
+  Bool needRedraw = False;<br />
+       ^<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:801:22: warning: expression which evaluates to zero treated as a null pointer constant of type 'char *' [-Wnon-literal-null-conversion]</font><br />
+       level_debug = '\0';<br />
+                     ^~~~<br />
+5 warnings generated.<br />
+clang -L/usr/lib/clang/14.0.6/lib/linux -o binclang64/Debug/lesson20.exe objclang64/Debug/src/lesson20.o objclang64/Debug/src/logger.o  --target=x86_64-pc-linux-gnu  -lGL -lglut -lGLU -lm -lXxf86vm -lXext -lX11<br />
+Output file is binclang64/Debug/lesson20.exe with size 31,34 KB<br />
+<b>-------------- Build: CLANG 64b Release in lesson20 (compiler: LLVM Clang Compiler)---------------</b><br />
+clang -Wall -O2 -DNDEBUG --target=x86_64-pc-linux-gnu -I/usr/lib/clang/14.0.6/include -c /home/thierry/Sources/Opengl/Lesson20/src/lesson20.c -o objclang64/Release/src/lesson20.o<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:251:44: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]</font><br />
+    printf("Width of %s: %ul\n", filename, texture-&gt;ulDimensionX);<br />
+                         ~~                ^~~~~~~~~~~~~~~~~~~~~<br />
+                         %lu<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:255:45: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]</font><br />
+    printf("Height of %s: %ul\n", filename, texture-&gt;ulDimensionY);<br />
+                          ~~                ^~~~~~~~~~~~~~~~~~~~~<br />
+                          %lu<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:460:26: warning: cast to smaller integer type 'int' from 'char **' [-Wpointer-to-int-cast]</font><br />
+                         (int) argc,<br />
+                         ^~~~~~~~~~<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:739:8: warning: variable 'needRedraw' set but not used [-Wunused-but-set-variable]</font><br />
+  Bool needRedraw = False;<br />
+       ^<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson20/src/lesson20.c:801:22: warning: expression which evaluates to zero treated as a null pointer constant of type 'char *' [-Wnon-literal-null-conversion]</font><br />
+       level_debug = '\0';<br />
+                     ^~~~<br />
+5 warnings generated.<br />
+clang -L/usr/lib/clang/14.0.6/lib/linux -o binclang64/Release/lesson20.exe objclang64/Release/src/lesson20.o objclang64/Release/src/logger.o  -s --target=x86_64-pc-linux-gnu  -lGL -lglut -lGLU -lm -lXxf86vm -lXext -lX11<br />
+Output file is binclang64/Release/lesson20.exe with size 22,76 KB<br />
+<b>-------------- Build: Archive in lesson20 (compiler: GNU GCC Compiler)---------------</b><br />
+rm --interactive=never *.7z || true<br />
+rm --interactive=never *.tar || true<br />
+rm: impossible de supprimer '*.tar': Aucun fichier ou dossier de ce type<br />
+python3 /home/thierry/Sources/tools/Size_exec.py lesson20<br />
+        Tableau récapitulatif de la taille des exécutables générés pour le projet : lesson20<br />
+  Debug GCC 32b     :  46.8 KB et sa date dernière modification Sat Apr  8 18:26:44 2023 -&gt; ./bingcc32/Debug/lesson20.exe.<br />
+  Release GCC 32b   :  21.4 KB et sa date dernière modification Sat Apr  8 18:26:44 2023 -&gt; ./bingcc32/Release/lesson20.exe.<br />
+  Debug GCC 64b     :  52.8 KB et sa date dernière modification Sat Apr  8 18:26:44 2023 -&gt; ./bingcc64/Debug/lesson20.exe.<br />
+  Release GCC 64b   :  22.2 KB et sa date dernière modification Sat Apr  8 18:26:44 2023 -&gt; ./bingcc64/Release/lesson20.exe.<br />
+  Debug CLANG 32b   :  25.4 KB et sa date dernière modification Sat Apr  8 18:26:45 2023 -&gt; ./binclang32/Debug/lesson20.exe.<br />
+  Release CLANG 32b :  17.8 KB et sa date dernière modification Sat Apr  8 18:26:45 2023 -&gt; ./binclang32/Release/lesson20.exe.<br />
+  Debug CLANG 64b   :  31.3 KB et sa date dernière modification Sat Apr  8 18:26:45 2023 -&gt; ./binclang64/Debug/lesson20.exe.<br />
+  Release CLANG 64b :  22.8 KB et sa date dernière modification Sat Apr  8 18:26:45 2023 -&gt; ./binclang64/Release/lesson20.exe.<br />
+python3 /home/thierry/Sources/tools/Calc_checksums.py lesson20<br />
+Tableau récapitulatif des différents checksums générés pour le projet : lesson20<br />
+Calcul des cheksums du fichier : ./bingcc32/Debug/lesson20.exe.<br />
+Checksum CRC32  is 21865b26.<br />
+Checksum MD5 is 782510fa711f7c78502cb87d7fdbee45.<br />
+Checksum SHA256 is 26ce41a1c079232927629cd9784f1c12c2a73e57390b6ecbe2e45727fd14a70b.<br />
+Checksum SHA512 is f9b13f6894a2cc2252ebef1c0a8e097ea3fd33f48cc4d48049cb8fb2e13e90c484233d403ef99be3ac4a54a911a881402c99dc5de1367072ae01a1b02b84fad1.<br />
+Checksum RipeMD160 is f7fcf3854e1b0c2778da48817d4f475e0b482ccb.<br />
+Checksum BLAKE2B is 230d2a5ea60cffd8a2f4184cdb7356a371b91f5d5b98263805a9a5991e210ce6022ee509a85e9c082657c71f10cd4a9abd7e0e79a82a9ab3b9f7948dfce2b142.<br />
+Calcul des cheksums du fichier : ./bingcc32/Release/lesson20.exe.<br />
+Checksum CRC32  is 8874f278.<br />
+Checksum MD5 is 4a4b67f65c43d69ff34073429e1fe4e4.<br />
+Checksum SHA256 is 9b5252e29a22f149ba03c4d085d19602a6e5247a8f135cbd6dbdc2c336a97665.<br />
+Checksum SHA512 is 2de958fe0b53fc707bdaf4c72bcdfb586971b75c09b21b00ef8eecbfcdbacf3baae580fbd89f821059996b9613f4d079909b6b46d68036560761d61e63858d93.<br />
+Checksum RipeMD160 is c3db7a15f3979109df81844e82d84847f1fe70ba.<br />
+Checksum BLAKE2B is ed753b20770ceecb1eb5ce594f0e87a966fdfa92a38a99447430124db596a5a52c073d39093304be67c3219d2a2980942d2136cc81e5f2fa2195668540074317.<br />
+Calcul des cheksums du fichier : ./bingcc64/Debug/lesson20.exe.<br />
+Checksum CRC32  is 54a35ba1.<br />
+Checksum MD5 is 7af8e613604c4b1d15d4d07df8a06aca.<br />
+Checksum SHA256 is 646fcc204a8883a773bcbb1fce2ee1107fd8e4a6efe6c912c88037a87ae2da94.<br />
+Checksum SHA512 is 9f11ee2bbdd4e54684dff695dad46825a372bf9da72bd5a35edd980f633cbbb8ca3b34ff13344b6a35dd185e663a210e875f6fcc28f6acf9b92ef5a5d6441cf6.<br />
+Checksum RipeMD160 is 0bbfa002f1ae7e05e5e943f95ff7f80bf9343d30.<br />
+Checksum BLAKE2B is c67a8b42339362b521f47affd5dace196a20ee189c5bc4e67b189a3c45541a38ea7e88f12c4b673e700a12fa873aabe2dffae9b92d2de0d1278f067dae02274e.<br />
+Calcul des cheksums du fichier : ./bingcc64/Release/lesson20.exe.<br />
+Checksum CRC32  is 4880b2a8.<br />
+Checksum MD5 is 46e516f9b996c741a8b65548e6102f34.<br />
+Checksum SHA256 is 32bdc0fe89b654d83c6abdccbea5648581e70b83a49f932ee91f1065e9c5d71d.<br />
+Checksum SHA512 is 4753b4b6b1ca089810a28cb6c3186c5bcc5c5e7e15cb53f8af5c8915dcd0333776fb2be4676f6fd3838a05ba1a9b42f7f81ad7884fbac8e492fd991124ca0a18.<br />
+Checksum RipeMD160 is 43f2226f010167e81be5c12839e01490ccd545f7.<br />
+Checksum BLAKE2B is 6d9d0b449a37f3bcbbdb89d0be7dbd44fec579fdde74dc53833fed247c0cdfb34d17ecec49647a43d69cdfea182693792cbe8076da199c73d6b5c169e8f04ebc.<br />
+Calcul des cheksums du fichier : ./binclang32/Debug/lesson20.exe.<br />
+Checksum CRC32  is 1e3bc689.<br />
+Checksum MD5 is 8dc1ea305af5a7947cddffb74f995dc9.<br />
+Checksum SHA256 is 27848a24bc624ba8961889da07782fc178da4a5b8633c3420e42f5d8a35ffc29.<br />
+Checksum SHA512 is 3196770cd45d6108775828a4eba0abd193f981476e24c803cd34e4fb6ebba44a702f8004f7eb4368a46f2720583a6ffe83604b3d7e9461d8a17e358ee919cd56.<br />
+Checksum RipeMD160 is 1c717a0a51e10095c8b72fc0c14b2f87bc81f4be.<br />
+Checksum BLAKE2B is c003ed0d407377d18f55cb3ffd627e1f3f1a7a00229f5357aee66b7c1a8701733dbe4a48fd5019ee88bc3ba204eb5502431b048bcd58fff5fad3be84f4f13735.<br />
+Calcul des cheksums du fichier : ./binclang32/Release/lesson20.exe.<br />
+Checksum CRC32  is 396e95c.<br />
+Checksum MD5 is c146bfba32e1cb181e6fe3b152533333.<br />
+Checksum SHA256 is a04f7bffcf9e419497e3c58a65ce2b3c67a5a580d5b6572726372077a3dd1dfc.<br />
+Checksum SHA512 is 660b05789541e7c33e14fc1a2ecf9f3097463771fba31068f6f4bfe3750916bd6a8dfcda6c681cfb58c0c5322568f2b71e0f3a0fbafc814d4ed6d0dbcd31319a.<br />
+Checksum RipeMD160 is cbc43406fbe2d165afbbd48cf2cff6d46d9cec46.<br />
+Checksum BLAKE2B is b3a6bf7eb90e82e110b4bbf61ae0e4a05bc1ec0c53c8afa555d2488934b828c73dddf2c8ebee91c543d677941fbc89be17bbf4876d7bb431c6ae19387f666858.<br />
+Calcul des cheksums du fichier : ./binclang64/Debug/lesson20.exe.<br />
+Checksum CRC32  is ca2e51c7.<br />
+Checksum MD5 is 26344674646f240278668283c7cce448.<br />
+Checksum SHA256 is b0b04241993232837c54754311b6bed72da0b14045125acfaaae354f47b2ddc2.<br />
+Checksum SHA512 is 3b5c462deef95b546aee4fb7e54516852b1b20cb16209bc2e5b7b828cc57948136950b3aba8362111d3a6c7d70f74b6313d67258a2bf3f3fb49ec4fe2a86f8bf.<br />
+Checksum RipeMD160 is 0d6b35704df9599ab4d8ee3009245f59731d708f.<br />
+Checksum BLAKE2B is 6e588bb76a0c21131ee72ae7d5f710d05110d296125df8be2fd07e1fab5ec474556b85ea6d878784e905f1e3fd44c40de0db36a7d1c3952442e44ec754c9a42a.<br />
+Calcul des cheksums du fichier : ./binclang64/Release/lesson20.exe.<br />
+Checksum CRC32  is 12a173d4.<br />
+Checksum MD5 is 8792b511cc063189a1923f78d4aae4da.<br />
+Checksum SHA256 is 92d847d559c803aec0e503437b1195f937afb8d8e953790afa622362baafcdf3.<br />
+Checksum SHA512 is 915dab263aa4141deaaa15beb181eb89a138357db4966fe9f02613cdc67fc870d36d652847ce18990f2b150e6181b837544d50cb69d9b7138f392746f35447d6.<br />
+Checksum RipeMD160 is 43d7f0b3e01f0986c703d00e190ecbcdc24dd0a3.<br />
+Checksum BLAKE2B is 226dcaf7881517da0ddcbb6a6def6d985a170a5333d8ecc3f841c6b3da56d7dbd1763a9c6572e6b75ead0f12a483bc3d886b388decaa10c50e95c5b4c52415e9.<br />
+7z a lesson20_""date +"%d-%m-%Y"""_src.7z src/* res/* data/* build.cmake/* build.shell/* *.bat *.txt *.html *.md doxygen/* doc/* *.cbp *.workspace '-x!*.bak' -mhe=on -p"lesson20_tde@03!"<br />
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21<br />
+p7zip Version 16.02 (locale=fr_FR.UTF-8,Utf16=on,HugeFiles=on,64 bits,8 CPUs Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz (A0652),ASM,AES-NI)<br />
+Scanning the drive:<br />
+22 folders, 263 files, 1337736 bytes (1307 KiB)<br />
+Creating archive: lesson20_08-04-2023_src.7z<br />
+Items to compress: 285<br />
+Files read from disk: 263<br />
+Archive size: 384041 bytes (376 KiB)<br />
+Everything is Ok<br />
+7z a -ttar lesson20_""date +"%d-%m-%Y"""_all.tar * '-x!*.bak'  '-x!*.7z'<br />
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21<br />
+p7zip Version 16.02 (locale=fr_FR.UTF-8,Utf16=on,HugeFiles=on,64 bits,8 CPUs Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz (A0652),ASM,AES-NI)<br />
+Scanning the drive:<br />
+63 folders, 346 files, 2847648 bytes (2781 KiB)<br />
+Creating archive: lesson20_08-04-2023_all.tar<br />
+Items to compress: 409<br />
+Files read from disk: 409<br />
+Archive size: 3166208 bytes (3092 KiB)<br />
+Everything is Ok<br />
+7z a lesson20_""date +"%d-%m-%Y"""_all.7z *_all.tar -mhe=on -p"lesson20_tde@03!"<br />
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21<br />
+p7zip Version 16.02 (locale=fr_FR.UTF-8,Utf16=on,HugeFiles=on,64 bits,8 CPUs Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz (A0652),ASM,AES-NI)<br />
+Scanning the drive:<br />
+1 file, 3166208 bytes (3092 KiB)<br />
+Creating archive: lesson20_08-04-2023_all.7z<br />
+Items to compress: 1<br />
+Files read from disk: 1<br />
+Archive size: 580778 bytes (568 KiB)<br />
+Everything is Ok<br />
+rm --interactive=never *.tar || true<br />
+<font color="#0000ff">Process terminated with status 0 (0 minute(s), 2 second(s))</font><br />
+<font color="#0000ff">0 error(s), 32 warning(s) (0 minute(s), 2 second(s))</font><br />
+</tt>
+</body>
+</html>

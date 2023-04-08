@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1679503028 source:/home/thierry/Sources/Opengl/Lesson20/src/logger.c
+	<stdio.h>
+	<stdarg.h>
+	<time.h>
+	<string.h>
+	<stdlib.h>
+	<windows.h>
+	"logger.h"
+
+1679503025 /home/thierry/Sources/Opengl/Lesson20/src/logger.h
+	<stdarg.h>
+
